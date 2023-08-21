@@ -1,0 +1,114 @@
+.square{
+    background-color: red;
+    width: 100px;
+    height: 100px;
+    display: inline-block;
+}
+.circle{
+    height: 100px;
+    width:100px;
+    background-color: green;
+    display: inline-block;
+    border-radius: 50%;
+}
+.sat{
+    width: 200px;
+    height: fit-content;
+    margin-top: 5px;
+    border:none;
+    padding: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0,0, 0.25);
+}
+.yt{
+    background-color: rgb(58, 58, 58);
+    height: max-content;
+    width: 350px;
+    font-family: 'Roboto', sans-serif;
+    padding: 10px;
+    margin-top: 10px;
+}
+.head1{
+    font-size: larger;
+    color: white;
+    line-height: 0;
+    margin: none;
+}
+.desc{
+    margin-top: none;
+    color: gray;
+    font-weight: lighter;
+}
+.tweets{
+    box-shadow: 0px 0px 10px rgba(0,0,0,0.2);
+    padding: 10px;
+    height: max-content;
+    width: 480px;
+    border-radius: 10px;
+}
+.pfp{
+    object-fit: cover;
+    width: 50px;
+    height: 50px;
+    border: solid;
+    border-radius: 50%;
+    border-width: 0.1px;
+    border-color: rgb(161, 160, 160);
+    vertical-align: middle;
+    cursor: pointer;
+}
+.whats{
+    width: 300px;
+    padding: 10px;
+    border: none;
+    vertical-align: middle;
+}
+.tweety{
+    background-color: #00acee;
+    color: white;
+    border-radius: 25px;
+    padding: 12px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border: none;
+    margin-right: 10px;
+    font-weight: bold;
+}
+.tweety:hover{
+    cursor: pointer;
+}
+.tweets{
+    margin: 30px;
+}
+.profile{
+    box-shadow: 0px 0  10px rgba(0, 0,0, 0.25);
+    height: min-content;
+    width: min-content;
+    display: inline-block;
+    padding: 10px;
+    border: none;
+    margin-right: 10px;
+}
+.dp{
+    height: 150px;
+    width: 150px;
+    object-fit: cover;
+}
+.name,.friends{
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 0;
+    padding-top: 5px;
+}
+.name{
+    font-weight: bold;
+}
+.friends{
+    font-size: small;
+    color: gray;
+}
+.friend{
+    color: white;
+    background-color: #0087ee;
+    padding: 7px;
+    border:none;
+    border-radius: 4px;
+}

@@ -1,0 +1,119 @@
+.thumb{
+    width: 200px;
+    border-radius: 20px;
+    display: block;
+    border: solid;
+    margin: 10px;
+}
+.thumb1{
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    border: solid;
+    border-color: black ;
+    display: block;
+    margin: 10px;
+
+}
+.thumb2{
+    border: solid;
+    width: 200px;
+    height: 200px;
+    border-radius: 200px;
+    object-fit: cover;
+    display: block;
+    border-color: rgb(72, 206, 72);
+    border-width: 10px;
+    margin: 10px;
+}
+.search{
+    padding: 10px;
+    font-size: 15px;
+    border-radius: 7px;
+    border: solid;
+    border-color: gray;
+    border-width: 1px;
+    display: block;
+    margin: 10px;
+}
+.search2::placeholder{
+    width: 337px;
+}
+.search2{
+    border: none;
+    box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.2);
+    border-radius: 40px;
+    width: 337px;
+    height: 44px;
+    padding-left: 10px;
+    text-align: left;
+    font-size: medium;
+}
+.maill{
+    display:block;
+    padding: 20px;
+    font-size: large;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.mail{
+    display:grid;
+    padding: 10px;
+    height: 20px;
+    width: 300px;
+    border-radius: 5px;
+    border-width: 1px;
+    margin-top: 5px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.divv{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.sumbit{
+    background-color: rgb(15, 114, 180);
+    padding: 20px;
+    padding-left: 90px;
+    padding-right: 90px;
+    border: none;
+    border-radius: 100px;
+    font-size: large;
+    color: white;
+}
+.sumbit:hover{
+    cursor: pointer;
+}
+.pfp{
+    object-fit: cover;
+    width: 50px;
+    height: 50px;
+    border: solid;
+    border-radius: 50%;
+    border-width: 0.1px;
+    border-color: rgb(161, 160, 160);
+    vertical-align: middle;
+    cursor: pointer;
+}
+.whats{
+    width: 300px;
+    padding: 10px;
+    border: none;
+    vertical-align: middle;
+}
+.tweety{
+    background-color: #00acee;
+    color: white;
+    border-radius: 25px;
+    padding: 12px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border: none;
+    margin-right: 10px;
+    font-weight: bold;
+}
+.tweety:hover{
+    cursor: pointer;
+}
+.tweets{
+    margin: 30px;
+}

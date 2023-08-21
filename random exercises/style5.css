@@ -1,0 +1,99 @@
+/*.name, .email{
+    display:block;
+    margin: 10px;
+}
+.supp{
+    display: inline-block;
+    width: 200px;
+    vertical-align: middle;
+}
+body{
+    background-color: rgb(51, 48, 48);
+}
+.google,.search{
+    margin: auto;
+    display: block;
+}
+.diiv{
+    margin-top: 251px;
+}
+.google{
+    margin-bottom: 30px;
+}
+.search::placeholder{
+    text-align: left;
+}
+.search{
+    padding-left: 20px;
+    padding: 10px;
+    width:40%;
+    border-radius: 20px;
+    border: none;
+    box-shadow: 0px 0px 5px rgba(255, 255, 255, 0.352);    
+}*/
+/*.email,.sign{
+    display: block;
+}
+.fname, .lname{
+    width:100px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+.email{
+    width: 210px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    margin-top: 5px;
+}
+.lname::placeholder{
+    padding-left: 3px;
+}
+
+.fname::placeholder{
+    padding-left: 3px;
+}
+.email::placeholder{
+    padding-left: 3px;
+}
+.sign{
+    background-color: rgb(0, 149, 255);
+    color:white;
+    width: 216px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    margin-top: 5px;
+    border:none;
+    font-weight: bold;
+}
+.lname,.email,.fname, .sign{
+border-radius:5px;
+border-width: 1px;;
+}*/
+.req{
+    font-size: x-large;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    line-height: 0;
+}
+.pick,.dest{
+    display: block;
+   padding: 8px;
+   padding-right: 80px;
+   margin-bottom: 5px;
+   background-color: rgba(116, 115, 115, 0.228);
+   border: none;
+}
+.reeq, .sched{
+    margin-top:30px;
+    padding: 10px;
+    border:none;
+    cursor: pointer;
+
+}
+.reeq{
+    background-color: black;
+    color: white;
+    font-size: small;
+    margin-right: 5px;
+    cursor: pointer;
+}
+

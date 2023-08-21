@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Button Challenges</title></p>
+    <style>
+        p{
+            display: inline;
+        }
+        .pagescroll{
+            padding: 8px;
+            margin-left: 5px;
+            margin-right: 5px;
+            border-radius: 2px;
+            border-width: 1px;
+
+        }
+        .shadow{
+          vertical-align: top;
+          margin-top: 5px;
+          color: white;
+          background-color: green;
+          border: none;
+          padding: 10px;
+          padding-left: 15px ;
+          padding-right: 15px;
+          cursor: pointer;
+          transition: box-shadow 0.5;
+        }
+        .shadow:hover{
+          box-shadow: 4px 6px 10px rgba(0,0,0,0.5);
+        }
+        a{
+            color: red;
+
+        }
+        .stretch{
+            padding: 15px;
+            padding-left: 19px;
+            padding-right: 19px;
+            vertical-align: top;
+            margin-top: 5px;
+            background-color: green;
+            border: none;
+            cursor: zoom-in;
+            color: white;
+            transition: padding 0.5s, padding-left 0.5s, padding-right 0.5s, font-size 0.5s;
+          }
+          .stretch:hover{
+            padding: 30px;
+            padding-left: 38px;
+            padding-right: 38px;
+            font-size: larger;
+          }
+          .threebuttons{
+            margin: 5px;
+          }
+          .first, .second, .third{
+            background-color: green;
+            border: none;
+            color: white;
+            cursor: pointer;
+            padding: 10px;
+            padding-left: 15px;
+            padding-right: 15px;
+            transition: margin-right 0.5s,padding-right 0.5s, padding-left 0.5s ;
+          }
+          .first:hover,.second:hover,.third:hover{
+            padding-left: 25px;
+            padding-right: 25px;
+            margin-right: 10px;
+            margin-left: 10px ;
+          }
+          .hen{
+            background-color: green;
+            border: none;
+            color: aliceblue;
+            margin: 10px;
+            padding: 15px; 
+            padding-left: 20px;
+            padding-right: 20px;
+
+          }
+          .hen:hover{
+            background-color: black;
+            padding-left: 30px;
+            padding-right: 30px;
+
+          }
+    </style>
+</head>
+<body>
+    <button class="pagescroll">Back</button> 
+    <p>
+        <a href="_blank">1</a>
+        <a href="_blank">2</a> 
+        <a href="_blank">3</a> 
+        <a href="_blank">4</a> 
+        <a href="_blank">5</a>  
+    </p>
+        <button class="pagescroll">Next</button>
+        <br>
+        <button class="stretch">Stretch</button>
+        <button class="shadow">Shadow</button>
+        <div class="threebuttons">
+          <button class="first">
+            First
+          </button>
+          <button class="second">
+            Second
+          </button>          
+          <button class="third">
+            Third
+          </button>
+        </div>
+</body>
+</html>

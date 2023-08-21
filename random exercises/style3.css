@@ -1,0 +1,171 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+.video{
+    font-weight: bold;
+    font-size: 30px;
+    width: 500px;
+    line-height: 40px;
+    margin-bottom: 0;
+}
+.views{
+  font-size: 14px;
+  color: rgb(96,96,96); 
+  margin-top:10px;
+}
+.author{
+    font-size: 20px;
+    margin-top: 25px;
+    color: rgb(96,96,96);
+}
+.descript{
+    font-size: 19px;
+    width: 400px;
+    line-height: 28px;
+    color: rgb(96,96,96); 
+    margin-top: 30px;
+}
+.shop{
+    background-color: rgb(227, 67, 67);
+    padding: 20px;
+    color: white;
+    text-align: center;
+    margin-top: 100px;
+    font-size: large;
+}
+.shopnow{
+    margin-left: 30px;;
+}
+.shopnow:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
+.tahome{
+    font-weight: bold;
+    font-size: 30px;
+    font-family: Tahoma, Geneva, Verdana, sans-serif;
+}
+.csscou{
+    font-weight: bold;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-bottom: 0;
+}
+.csscou2{
+    color: gray;
+    margin-top: 2px;
+}
+.csscou3{
+    width: 280px;
+    word-spacing: 2px;
+}
+.getsta{
+    background-color: green;
+    padding: 12px;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    font-size: large;
+}
+.getsta:hover{
+    cursor: pointer;
+}
+.deal, .tuesale{
+    font-family: Arial, Helvetica, sans-serif;
+}
+.deal{
+    font-weight: bold;
+    font-size: 30px;
+    margin-bottom: 0px;            
+}
+.tuesale{
+    font-size: larger;
+    margin-top: 5px;
+    color: rgb(211, 107, 21);
+    font-style: italic;
+}
+.busi, .app,.leanr{
+    text-align:center;
+}
+.busi{
+    font-size: 30px;
+    font-weight: bold;
+    padding-top: 20px;
+}
+.app{
+    font-size: larger;
+}
+.leanr{
+    color: rgb(45, 133, 187);
+    font-size: large;
+}
+.leanr:hover{
+cursor: pointer;
+}
+.stock{
+    padding-top: 100px;
+    width:300px;
+    line-height: 30px;
+}
+.curr{
+    font-size: larger;
+    color:rgb(103, 98, 98);
+}
+.gree{
+    font-size: larger;
+    color: rgb(86, 161, 86);
+}
+.numbs{
+    font-size: 40px;
+}
+.after{
+    font-size: larger;
+    color:rgb(103, 98, 98);
+}
+.red{
+    color:rgb(193, 39, 39);
+}
+.free{
+    padding-top: 30px;
+    padding-bottom:0px;
+
+}
+.code{
+    font-size: large;
+    font-weight: bold;
+    padding-bottom:0px;
+
+}
+.at{
+    font-weight: normal;
+    color: gray;
+    font-size: medium;
+    
+}
+.des{
+    width: 500px;
+    padding-top: 0px;
+}
+.heere{
+    padding-top: 20px;
+}
+.refre{
+    color: rgb(59, 114, 195);
+}
+.model{
+    font-family: 'Montserrat', sans-serif;
+    padding-top: 30px;
+    text-align: center;
+    line-height: 40px;
+}
+.big{
+    font-size: xx-large;
+    font-weight: bold;
+}
+.under{
+    text-decoration: underline;
+}
+.orde{
+    font-size: 20px;
+}
