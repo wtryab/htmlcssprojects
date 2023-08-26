@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Survey Form</title>
+</head>
+<body>
+    <h1 id="title">Survey Form</h1>
+    <p id="description">This is to test learned skills</p>
+    <form action="" id="survey-form">
+        <fieldset class="information">
+            <label id="name-label">Name: <input type="text" name="name" id="name" required placeholder="Enter Your Name"></label>
+            <label id="email-label">Email: <input type="email" name="email" id="email" required placeholder="Enter Email"></label>
+            <label id="number-label">Age(optional): <input type="number" name="number" id="number" min="13" max="130" placeholder="Age"></label>
+        </fieldset>
+        <fieldset class="roles">
+            <legend>Which option best describes your role?</legend>
+            <select name="role" id="dropdown">
+                <option value="1">Select Option</option>
+                <option value="2">Student</option>
+                <option value="3">Teacher</option>
+                <option value="4">Parent</option>
+                <option value="5">None of the Above</option>
+           </select> 
+        </fieldset>
+        <fieldset class="recommend">
+            <legend>Would you recommend?</legend>
+            <label for="definitely"><input value="none" type="radio" name="choice" id="choice">Definitely</label>
+            <label for="maybe"><input type="radio" value="none"name="choice" id="choice">Maybe</label>
+            <label for="no"><input type="radio" value="none" name="choice" id="choice">Nope</label>
+        </fieldset>
+        <fieldset class="improvements">
+            <legend>What improvements required? Check all that apply.</legend>
+            <input type="checkbox" name="check" value="Front-end"><label for="Front-end">Front-end Projects</label>
+            <input type="checkbox" name="check" value="Back-end"><label for="Back-end">Back-end Projects</label>
+            <input type="checkbox" name="check" value="Data"><label for="Data">Data Visualization</label>
+            <input type="checkbox" name="check" value="Challenges"><label for="Challenges">Challenges</label>
+        </fieldset>
+        <fieldset class="anycomments">
+            <legend>Any Comments or Suggestions?</legend>
+            <textarea name="comments" id="comments" cols="40" rows="8" placeholder="Enter Comments here..."></textarea>
+        </fieldset>
+        <input type="submit" id="submit" value="Submit">
+    </form>
+
+    
+</body>
+</html>
